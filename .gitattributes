@@ -1,0 +1,30 @@
+# Auto-detect text files and set line endings
+* text=auto
+
+# TypeScript/JavaScript
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+
+# Web
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+
+# Config
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Environment
+.env.example text eol=lf
+.env.local text eol=lf
